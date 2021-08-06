@@ -1,7 +1,7 @@
 .menu {
   width: 300px;
   height: 100vh;
-  background-color: #FFFCF9;
+  background-color: #fffcf9;
   position: fixed;
   right: -300px;
   top: 0;
@@ -12,22 +12,22 @@
   justify-content: center;
   transition: all 1s ease;
 
-  &.active{
-    right:0
+  &.active {
+    right: 0;
   }
 
-  ul{
+  ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 300;
     color: #352d39;
 
-    li{
+    li {
       margin-bottom: 20px;
-      a{
-        font-size: inherit;
+      a {
+        font-size: 30px;
         color: inherit;
         text-decoration: none;
       }
