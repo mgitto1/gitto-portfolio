@@ -1,11 +1,23 @@
 .skills {
   display: flex;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: 30px;
+  margin-right: 90px;
 
   h1 {
-    font-size: 50px;
-    margin-left: 5%;
-    margin-bottom: 30px;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    margin-top: 30px;
+  }
+  h3 {
+    font-size: 20px;
+    color: brown;
+    position: absolute;
+    top: 0;
+    margin-top: 100px;
   }
 
   .skills-content {
@@ -19,7 +31,7 @@
       flex: 1;
       padding: 20px;
       .text {
-        font-size: 40px;
+        font-size: 25px;
         font-weight: 600;
         margin-bottom: 10px;
       }
@@ -27,53 +39,102 @@
       p {
         text-align: justify;
       }
+
+      .button {
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        background-color: brown;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        font-weight: 500;
+        color: black;
+        margin-top: 20px;
+        opacity: 70%;
+        cursor: pointer;
+
+        &:hover {
+          transition: 0.2s ease-in;
+          opacity: 100%;
+        }
+      }
     }
     .right {
-      flex: 1;
+      flex: 2;
+      height: 480px;
       padding: 20px;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+
+      .content_container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 75px;
+
+        .list_item {
+          width: 30%;
+          margin: 30px;
+
+          &.active {
+            transition: 1s;
+          }
+
+          .skills_header {
+            display: flex;
+            align-items: center;
+
+            .skills_title {
+              flex: 8;
+              align-items: center;
+              justify-content: center;
+              font-size: 25px;
+            }
+            img {
+              flex: 1;
+              height: 10px;
+              width: 20px;
+              cursor: pointer;
+              align-items: flex-end;
+              &.active {
+                transform: rotate(180deg);
+                transition: 1s;
+              }
+            }
+          }
+          .content {
+            display: block;
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+
+            &.active {
+              max-height: 300px;
+              transition: 1s;
+            }
+
+            ul {
+              list-style: none;
+              margin-top: 10px;
+
+              li {
+                margin-top: 10px;
+
+                img {
+                  height: 20px;
+                  width: 20px;
+                  float: left;
+                  margin-right: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
-}
-
-.skills .skills-content .right .bars {
-  margin-bottom: 15px;
-}
-.skills .skills-content .right .info {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  justify-content: space-between;
-}
-.skills .skills-content .right span {
-  font-weight: 500;
-  font-size: 18px;
-}
-.skills .skills-content .right .line {
-  height: 5px;
-  width: 100%;
-  background: lightgrey;
-  position: relative;
-}
-.skills .skills-content .right .line::before {
-  content: '';
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: crimson;
-}
-.skills-content .right .html::before {
-  width: 90%;
-}
-.skills-content .right .css::before {
-  width: 60%;
-}
-.skills-content .right .js::before {
-  width: 80%;
-}
-.skills-content .right .php::before {
-  width: 50%;
-}
-.skills-content .right .mysql::before {
-  width: 70%;
 }

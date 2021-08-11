@@ -12,8 +12,11 @@
       border-radius: 50%;
       align-items: flex-end;
       justify-content: center;
-      float: right img {
-        height: 90%;
+      background-color: brown;
+      float: right;
+      img {
+        height: 170%;
+        margin-left: 25px;
       }
     }
   }
@@ -41,7 +44,7 @@
 
         span {
           font-size: inherit;
-          color: darkgreen;
+          color: brown;
         }
         .ityped-cursor {
           animation: blink 1s infinite;
