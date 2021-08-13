@@ -14,6 +14,6 @@ app.post('/api/sendMail', (req, res) => {
   sendEmail('matthew.gitto1@gmail.com', req.body.email, req.body.message);
 });
 
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log('Server Running at 5000 ');
 });
