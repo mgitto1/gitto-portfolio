@@ -11,8 +11,9 @@ export default function Skills() {
 
   return (
     <section className="skills" id="skills">
-      <h1>Skills</h1>
-      <h3>- what i know -</h3>
+      <div className="skills-title">
+        <h1>Skills</h1>
+      </div>
       <div className="skills-content">
         <div className="left">
           <div className="text">About my creative skills & experiences.</div>
