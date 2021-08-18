@@ -10,6 +10,9 @@ app.use(cookieParser());
 
 const { sendEmail } = require('./mail');
 
+// static file-serving middleware
+app.use(express.static(path.join(__dirname, '..', 'react-ui/public')));
+
 // sends index.html
 app.use('*', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'react-ui/public/index.html'));
