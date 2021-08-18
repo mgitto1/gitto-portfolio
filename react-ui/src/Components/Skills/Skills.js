@@ -17,17 +17,19 @@ export default function Skills() {
       <div className="skills-content">
         <div className="left">
           <div className="text">About my creative skills & experiences.</div>
-          <p>
-            Drawing from my analytical skills as a CPA and my creativity as a
-            musician, software engineering seemed like the next logical step in
-            my life. My desire to bridge these analytical skills with my passion
-            for creating something impactful led me to learn to code. The more I
-            came to understand the power of coding, the more I came to love it.
-            I am continuously refining my skills with the ultimately goal of
-            building applications that improve the lives of everyday people.
-            Currently I am looking for an opportunity to start my new career as
-            a software engineer.
-          </p>
+          <div className="skills-description">
+            <p>
+              Drawing from my analytical skills as a CPA and my creativity as a
+              musician, software engineering seemed like the next logical step
+              in my life. My desire to bridge these analytical skills with my
+              passion for creating something impactful led me to learn to code.
+              The more I came to understand the power of coding, the more I came
+              to love it. I am continuously refining my skills with the
+              ultimately goal of building applications that improve the lives of
+              everyday people. Currently I am looking for an opportunity to
+              start my new career as a software engineer.
+            </p>
+          </div>
           <div>
             <a
               download
