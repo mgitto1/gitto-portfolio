@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server",
+    "start": "npm run dev",
     "build": "cd react-ui/ && npm install && npm run build",
     "backend": "nodemon server/index.js",
     "frontend": "npm run front --prefix client",

@@ -7,17 +7,25 @@ export default function Works() {
     {
       title: 'Test of Strength',
       img: 'assets/ToS.png',
-      description: 'A site where you get big',
-    },
-    {
-      title: 'Grace Topper',
-      img: 'assets/ToS.png',
-      description: 'Snazzy hat emporium',
+      description:
+        'Leveraged TensorflowJS and Posenet in order to build a React application that utilizes a webcam to track repetitions in a workout, record progress to a user dashboard, and show statistics comparing the user to other users across the world.',
+      video: 'https://youtu.be/HZIF9rtnvT8',
+      github: 'https://github.com/mgitto1/test-of-strength',
     },
     {
       title: 'Solve.It',
       img: 'assets/SolveIt.png',
-      description: 'Where you go to solve your problems',
+      description:
+        'Developed a platform with a coding environment built using Docker, where users can come to post bugs in their code along with a price they would pay to have it solved - other users can solve these bugs and sandbox using the in-platform coding environment.',
+      video: 'https://youtu.be/HZIF9rtnvT8',
+      github: 'https://github.com/Team-Neptune-FSA/solve-it',
+    },
+    {
+      title: 'Grace Topper',
+      img: 'assets/Grace-topper.png',
+      description:
+        'Developed an e-commerce platform utilizing React and Redux, where users were able to have a seamless shopping experience as both a guest user and a member of the site.',
+      github: 'https://github.com/FSA-Team-Haskell/grace-toppers-project',
     },
   ];
 
@@ -43,7 +51,16 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.description}</p>
-                  <span>Demo</span>
+                  {d.video ? (
+                    <span>
+                      <a href={d.video}>Video Demo</a>
+                    </span>
+                  ) : (
+                    ''
+                  )}
+                  <span>
+                    <a href={d.github}>Github</a>
+                  </span>
                 </div>
               </div>
               <div className="right">
