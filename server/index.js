@@ -9,6 +9,11 @@ app.use(cookieParser());
 
 const { sendEmail } = require('./mail');
 
+// sends index.html
+app.use('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', 'public/index.html'));
+});
+
 app.post('/api/sendMail', (req, res) => {
   console.log(req.body);
   sendEmail('matthew.gitto1@gmail.com', req.body.email, req.body.message);
