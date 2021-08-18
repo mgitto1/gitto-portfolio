@@ -11,7 +11,7 @@ const { sendEmail } = require('./mail');
 
 // sends index.html
 app.use('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'public/index.html'));
+  res.sendFile(path.join(__dirname, '..', 'react-ui/public/index.html'));
 });
 
 app.post('/api/sendMail', (req, res) => {
