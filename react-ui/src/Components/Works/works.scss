@@ -27,6 +27,7 @@
     height: 50px;
     position: absolute;
     cursor: pointer;
+    opacity: 50%;
 
     @include mobile {
       display: none;
@@ -35,14 +36,12 @@
     &.left {
       left: 120px;
       transform: rotate(90deg);
-      opacity: 50%;
       cursor: pointer;
     }
 
     &.right {
       right: 120px;
       transform: rotate(-90deg);
-      opacity: 50%;
       cursor: pointer;
     }
   }
