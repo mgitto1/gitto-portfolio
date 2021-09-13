@@ -6,7 +6,7 @@ export default function Works() {
   const data = [
     {
       title: 'Test of Strength',
-      logo: 'assets/barbell.png',
+      logo: 'assets/muscle.png',
       img: 'assets/ToS.png',
       description:
         'Leveraged TensorflowJS and Posenet in order to build a React application that utilizes a webcam to track repetitions in a workout, record progress to a user dashboard, and show statistics comparing the user to other users across the world.',
