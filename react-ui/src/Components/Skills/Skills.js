@@ -19,15 +19,16 @@ export default function Skills() {
           <div className="text">About my creative skills & experiences.</div>
           <div className="skills-description">
             <p>
-              Drawing from my analytical skills as a CPA and my creativity as a
-              musician, software engineering seemed like the next logical step
-              in my life. My desire to bridge these analytical skills with my
-              passion for creating something impactful led me to learn to code.
-              The more I came to understand the power of coding, the more I came
-              to love it. I am continuously refining my skills with the
-              ultimately goal of building applications that improve the lives of
-              everyday people. Currently I am looking for an opportunity to
-              start my new career as a software engineer.
+              Drawing from my analytical skills as a Certified Public Accountant
+              (CPA) and my creativity as a musician, software engineering seemed
+              like the perfect mixture of these two skills. My desire to bridge
+              these analytical skills with my passion for creating something
+              impactful led me to learn to code. The more I came to understand
+              the power of coding, the more I came to love it. I am continuously
+              refining my skills with the ultimately goal of building
+              applications that improve the lives of everyday people. Currently
+              I am looking for an opportunity to start my new career as a
+              software engineer.
             </p>
           </div>
           <div className="dl_button">

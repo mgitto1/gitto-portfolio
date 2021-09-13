@@ -6,6 +6,7 @@ export default function Works() {
   const data = [
     {
       title: 'Test of Strength',
+      logo: 'assets/barbell.png',
       img: 'assets/ToS.png',
       description:
         'Leveraged TensorflowJS and Posenet in order to build a React application that utilizes a webcam to track repetitions in a workout, record progress to a user dashboard, and show statistics comparing the user to other users across the world.',
@@ -14,6 +15,7 @@ export default function Works() {
     },
     {
       title: 'Solve.It',
+      logo: 'assets/lightbulb.png',
       img: 'assets/SolveIt.png',
       description:
         'Developed a platform with a coding environment built using Docker, where users can come to post bugs in their code along with a price they would pay to have it solved - other users can solve these bugs and sandbox using the in-platform coding environment.',
@@ -23,6 +25,7 @@ export default function Works() {
     {
       title: 'Grace Topper',
       img: 'assets/Grace-topper.png',
+      logo: 'assets/hat.png',
       description:
         'Developed an e-commerce platform utilizing React and Redux, where users were able to have a seamless shopping experience as both a guest user and a member of the site.',
       github: 'https://github.com/FSA-Team-Haskell/grace-toppers-project',
@@ -37,7 +40,7 @@ export default function Works() {
 
   return (
     <div className="works" id="works">
-      <h1 style={{ marginTop: '20px' }}>Featured Projects</h1>
+      <h1 className="titleText">Featured Projects</h1>
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -48,7 +51,7 @@ export default function Works() {
               <div className="left">
                 <div className="left-container">
                   <div className="img-container">
-                    <img src="assets/logo192.png" alt="" />
+                    <img src={d.logo} alt="" />
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.description}</p>
