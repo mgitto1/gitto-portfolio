@@ -35,14 +35,14 @@
     &.left {
       left: 120px;
       transform: rotate(90deg);
-      opacity: 50%;
+      opacity: 75% !important;
       cursor: pointer;
     }
 
     &.right {
       right: 120px;
       transform: rotate(-90deg);
-      opacity: 50%;
+      opacity: 75% !important;
       cursor: pointer;
     }
   }
