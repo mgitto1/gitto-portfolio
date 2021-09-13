@@ -30,7 +30,7 @@ export default function Skills() {
               start my new career as a software engineer.
             </p>
           </div>
-          <div>
+          <div className="dl_button">
             <a
               download
               href="assets/Matthew_Gitto_Resume.pdf"

@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   position: relative;
   margin-right: 90px;
 
@@ -78,6 +77,12 @@
       }
       p {
         text-align: justify;
+      }
+
+      .dl_button {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
       }
 
       .button {
