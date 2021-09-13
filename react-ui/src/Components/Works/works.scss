@@ -33,16 +33,14 @@
     }
 
     &.left {
-      left: 120px;
+      left: 80px;
       transform: rotate(90deg);
-      opacity: 75% !important;
       cursor: pointer;
     }
 
     &.right {
-      right: 120px;
+      right: 80px;
       transform: rotate(-90deg);
-      opacity: 75% !important;
       cursor: pointer;
     }
   }
@@ -67,7 +65,7 @@
       justify-content: center;
 
       .item {
-        width: 700px;
+        width: 60%;
         height: 100%;
         background-color: white;
         border-radius: 20px;
@@ -90,7 +88,7 @@
 
           .left-container {
             width: 90%;
-            height: 70%;
+            height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -98,6 +96,7 @@
             @include mobile {
               width: 100%;
               height: 100%;
+              align-items: center;
             }
           }
 

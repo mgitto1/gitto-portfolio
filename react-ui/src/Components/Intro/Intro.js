@@ -27,7 +27,7 @@ export default function Intro() {
             Aspiring <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#skills">
           <img src="assets/downarrow.png" alt="down arrow" />
         </a>
       </div>
