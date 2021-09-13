@@ -27,20 +27,19 @@
     height: 50px;
     position: absolute;
     cursor: pointer;
-    opacity: 50%;
 
     @include mobile {
       display: none;
     }
 
     &.left {
-      left: 120px;
+      left: 80px;
       transform: rotate(90deg);
       cursor: pointer;
     }
 
     &.right {
-      right: 120px;
+      right: 80px;
       transform: rotate(-90deg);
       cursor: pointer;
     }
@@ -66,7 +65,7 @@
       justify-content: center;
 
       .item {
-        width: 700px;
+        width: 60%;
         height: 100%;
         background-color: white;
         border-radius: 20px;
