@@ -16,6 +16,9 @@
   }
   .titleText {
     margin-top: 20px;
+    @include mobile {
+      display: none;
+    }
   }
 
   h3 {
