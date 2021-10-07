@@ -43,6 +43,7 @@
     align-items: center;
     margin-right: 40px;
     margin-left: 40px;
+    overflow: hidden;
 
     @include mobile {
       flex-direction: column;
