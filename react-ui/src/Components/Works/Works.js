@@ -7,7 +7,7 @@ export default function Works() {
     {
       title: 'Test of Strength',
       logo: 'assets/muscle.png',
-      img: 'assets/ToS.png',
+      img: 'assets/ToS-min.png',
       description:
         'Leveraged TensorflowJS and Posenet in order to build a React application that utilizes a webcam to track repetitions in a workout, record progress to a user dashboard, and show statistics comparing the user to other users across the world.',
       video: 'https://youtu.be/HZIF9rtnvT8',
@@ -16,7 +16,7 @@ export default function Works() {
     {
       title: 'Solve.It',
       logo: 'assets/lightbulb.png',
-      img: 'assets/SolveIt.png',
+      img: 'assets/SolveIt-min.png',
       description:
         'Developed a platform with a coding environment built using Docker, where users can come to post bugs in their code along with a price they would pay to have it solved - other users can solve these bugs and sandbox using the in-platform coding environment.',
       video: 'https://youtu.be/HZIF9rtnvT8',
@@ -24,8 +24,8 @@ export default function Works() {
     },
     {
       title: 'Grace Topper',
-      img: 'assets/Grace-topper.png',
-      logo: 'assets/hat.png',
+      img: 'assets/Grace-topper-min.png',
+      logo: 'assets/hat-min.png',
       description:
         'Developed an e-commerce platform utilizing React and Redux, where users were able to have a seamless shopping experience as both a guest user and a member of the site.',
       github: 'https://github.com/FSA-Team-Haskell/grace-toppers-project',
