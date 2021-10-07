@@ -27,12 +27,12 @@
       }
 
       img {
-        height: 170%;
+        height: 100%;
 
         @include mobile {
-          height: 130%;
-          margin-left: 150px;
-          margin-top: 50px;
+          height: 60%;
+          margin-left: 130px;
+          margin-top: 20px;
         }
       }
     }

@@ -9,14 +9,14 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      strings: ['Developer', 'Designer', 'Engineer'],
+      strings: ['Engineer', 'Developer', 'Designer'],
     });
   }, []);
   return (
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/matt.png" alt="Matthew Gitto" />
+          <img src="assets/matt_portfolio.png" alt="Matthew Gitto" />
         </div>
       </div>
       <div className="right">
