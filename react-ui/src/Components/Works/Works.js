@@ -12,6 +12,7 @@ export default function Works() {
         'Leveraged TensorflowJS and Posenet in order to build a React application that utilizes a webcam to track repetitions in a workout, record progress to a user dashboard, and show statistics comparing the user to other users across the world.',
       video: 'https://youtu.be/HZIF9rtnvT8',
       github: 'https://github.com/mgitto1/test-of-strength',
+      site: 'https://www.testofstrength.app',
     },
     {
       title: 'Solve.It',
@@ -55,6 +56,13 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.description}</p>
+                  {d.site ? (
+                    <span>
+                      <a href={d.site}>Try it out</a>
+                    </span>
+                  ) : (
+                    ''
+                  )}
                   {d.video ? (
                     <span>
                       <a href={d.video}>Video Demo</a>

@@ -9,6 +9,10 @@
   overflow-y: hidden;
   overflow-y: hidden;
 
+  @include mobile {
+    background-color: white;
+  }
+
   h1 {
     font-size: 60px;
     position: absolute;
@@ -17,7 +21,8 @@
   .titleText {
     margin-top: 20px;
     @include mobile {
-      display: none;
+      margin-top: 40px;
+      font-size: 40px;
     }
   }
 
@@ -83,6 +88,7 @@
           width: 80%;
           height: 150px;
           margin: 15px 0;
+          background-color: brown;
         }
 
         .left {
