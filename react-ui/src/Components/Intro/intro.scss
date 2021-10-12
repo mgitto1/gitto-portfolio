@@ -28,10 +28,11 @@
 
       img {
         height: 100%;
+        margin-top: 25px;
 
         @include mobile {
-          height: 60%;
-          margin-left: 130px;
+          height: 70%;
+          margin-left: 100px;
           margin-top: 20px;
         }
       }
