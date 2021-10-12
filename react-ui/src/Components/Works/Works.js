@@ -56,13 +56,13 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.description}</p>
-                  {d.site ? (
+                  {/* {d.site ? (
                     <span>
                       <a href={d.site}>Try it out</a>
                     </span>
                   ) : (
                     ''
-                  )}
+                  )} */}
                   {d.video ? (
                     <span>
                       <a href={d.video}>Video Demo</a>
