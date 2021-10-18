@@ -20,8 +20,8 @@ const sendEmail = (to, from, message) => {
   const smtpTransport = mailer.createTransport({
     service: 'Gmail',
     auth: {
-      user: 'mittoportfolio@gmail.com',
-      pass: '!2345Abc',
+      user: process.env.EMAIL,
+      pass: process.env.PW,
     },
   });
 
